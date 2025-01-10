@@ -7,15 +7,15 @@ public class FactorialOfaNumber {
 			return 1;
 		}
 
-		int Factorial = 1;
+		int factorial = 1;
 
 		for (int i = 1; i <= num ; i++) {
 			
-			Factorial *= i;
+			factorial *= i;
 			
 		} 
 				
-		return Factorial;
+		return factorial;
 
 	}	
 
